@@ -38,7 +38,9 @@ cd ocr_app
 ```bash
 # Create virtual environment
 python -m venv venv
+```
 
+```bash
 # Activate virtual environment
 # For Windows
 .\venv\Scripts\activate
