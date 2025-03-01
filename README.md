@@ -65,8 +65,6 @@ streamlit run streamlit_app.py
 # Build Image Docker
 docker build -t ocr_app .
 
-# Run FastAPI container
-
 ```
 
 2. Run Container:
@@ -74,6 +72,7 @@ docker build -t ocr_app .
 # for FastAPI
 docker run -d -p 8000:8000 ocr_app
 
+```bash
 # for Streamlit
 docker run -d -p 8501:8501 ocr_app streamlit run streamlit_app.py --server.port 8501 --server.address 0.0.0.0
 ```
