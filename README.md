@@ -71,6 +71,7 @@ docker build -t ocr_app .
 ```bash
 # for FastAPI
 docker run -d -p 8000:8000 ocr_app
+```
 
 ```bash
 # for Streamlit
