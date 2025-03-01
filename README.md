@@ -84,7 +84,7 @@ docker run -d -p 8501:8501 ocr_app streamlit run streamlit_app.py --server.port 
 ```
 
 ## Development Team
-- - **Rein L Tobing** - Machine Learning Engineer
+- **Rein L Tobing** - Machine Learning Engineer
   - Email: reinltobing@gmail.com
   - LinkedIn: [Rein L Tobing](https://www.linkedin.com/in/rein-l-tobing/)
   - GitHub: [rein55](https://github.com/rein55)
