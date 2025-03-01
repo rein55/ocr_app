@@ -24,3 +24,6 @@ EXPOSE 8000
 
 # Perintah default untuk menjalankan FastAPI
 CMD ["uvicorn", "app.api:app", "--host", "0.0.0.0", "--port", "8000"]
+
+# Jika ingin menjalankan aplikasi Streamlit via Docker, ganti CMD-nya menjadi:
+# CMD ["streamlit", "run", "streamlit_app.py", "--server.port", "8501", "--server.address", "0.0.0.0"]
